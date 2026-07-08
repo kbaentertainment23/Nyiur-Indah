@@ -24,7 +24,7 @@ import {
  * Get Google Apps Script Web App URL from localStorage or environment variable
  */
 export function getAppsScriptUrl(): string {
-  const envUrl = (import.meta as any).env?.VITE_APPS_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbyn1YCyU-DeG0hOXtmtiIgCDLRDCodl-B5tYJV6MTdHhRgYUht_bIa1-y-5Fvv36XJs/exec';
+  const envUrl = (import.meta as any).env?.VITE_APPS_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbwI0R7tI-2B4WvcBTECKuEzBkS7S-0ssJadPfWGrNPlGsxY99tV6r7kX8ijBw_KUasw/exec';
   const localUrl = localStorage.getItem('apps_script_url');
   return localUrl || envUrl || '';
 }
