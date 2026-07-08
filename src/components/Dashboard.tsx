@@ -3732,19 +3732,6 @@ export default function Dashboard({ session, token, spreadsheet, onLogout, onCha
               <Printer className="w-4 h-4 text-slate-400" />
               Cetak Laporan Bulanan
             </button>
-
-
-            <button 
-              onClick={() => {
-                onChangeSpreadsheet();
-                setIsMobileSidebarOpen(false);
-              }}
-              className="w-full flex items-center gap-3 px-3 py-2 hover:bg-slate-800 rounded-xl transition-colors text-left text-sm text-slate-300 cursor-pointer"
-            >
-              <Settings className="w-4 h-4 text-slate-400" />
-              Ganti Database (Sheet)
-            </button>
-          </div>
           
           <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-6 mb-2 px-2">Status Sistem</div>
           <div className="px-3 py-3 bg-slate-800/50 rounded-xl border border-slate-800 space-y-2">
