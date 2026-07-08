@@ -1,0 +1,8 @@
+{
+  "name": "Sistem Inventaris Barang V3.4",
+  "description": "Sistem pelacakan inventaris barang real-time terintegrasi dengan Google Drive dan Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
